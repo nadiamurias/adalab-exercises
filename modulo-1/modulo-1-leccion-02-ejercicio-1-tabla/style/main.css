@@ -1,0 +1,25 @@
+h1{
+    background: purple;
+    color: white;
+    font-family: monospace;
+}
+#days{
+    color: purple;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 5px;
+}
+#food{
+    color: green;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 25px;
+}
+table, th, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+    
