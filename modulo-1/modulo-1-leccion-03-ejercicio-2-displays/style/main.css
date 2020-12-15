@@ -1,0 +1,28 @@
+.block {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(206, 206, 194);
+}
+.ej1 {
+  color: red;
+}
+.ej2 {
+  color: blue;
+}
+.ej3 {
+  color: green;
+}
+span {
+  display: inline;
+  background: purple;
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+.inline-block {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: orange;
+}
