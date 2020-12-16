@@ -1,0 +1,30 @@
+.container1 {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.item1 {
+  background-color: rgb(224, 178, 224);
+  border: 1px solid purple;
+  width: 40px;
+}
+.container2 {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.item2 {
+  background-color: rgb(224, 178, 224);
+  border: 1px solid purple;
+  width: 500px;
+  height: 40px;
+}
