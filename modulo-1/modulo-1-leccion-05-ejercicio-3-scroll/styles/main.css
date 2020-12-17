@@ -1,0 +1,9 @@
+.header {
+  background-color: purple;
+  position: fixed;
+  color: white;
+}
+.container {
+  position: absolute;
+  top: 30px;
+}
