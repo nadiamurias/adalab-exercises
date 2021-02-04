@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+.container-second {
+  background-color: burlywood;
+}
+.container-first {
+  background-color: lightgreen;
+}
