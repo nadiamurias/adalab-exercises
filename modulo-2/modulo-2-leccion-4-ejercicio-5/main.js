@@ -1,12 +1,8 @@
 
 'use strict'
 
-function number (a){
-if ( a % 2 === 0){
-    console.log ('true');
+function getEl (a){
+ return document.querySelector(a);
 }
-else {
-    console.log('false');
-}
-}
-number(23);
+const btnEl = getEl('.btn')
+ console.log(btnEl);

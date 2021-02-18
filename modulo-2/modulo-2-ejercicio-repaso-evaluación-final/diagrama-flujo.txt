@@ -1,0 +1,21 @@
+Paletas
+
+## Diagrama de flujo
+
+1. Arrancar la página
+    1.1 Comprobar si hay datos en el localStorage
+        1.1.1 Si: cojo los datos del localStorage
+        1.1.2 No: cojo datos del APi
+    1.2 Guardar en el LocalStorage
+    1.3 Pintar Paletas
+    1.4 Escuchar los eventos en las paletas
+
+2. Pulsar en una Paleta (evento)
+    2.1 Des / marcar una paleta como favorita en los datos
+    2.2 Pintar paleta
+    2.3 Escuchar los eventos en las paletas
+
+3. Filtar
+    3.1 Coger el valor del input y filtrar las Paletas
+    3.2 Pintar Paletas
+    3.3 Escuchar los eventos en las paletas
