@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(119, 113, 113);
+  padding: 10px;
+  width: 300px;
+}
+.header {
+  display: flex;
+}
+.logo {
+  height: 40px;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header-text {
+  height: 40px;
+  padding-left: 10px;
+}
+.name {
+  font-weight: 600;
+  font-size: 16px;
+}
+.date {
+  font-weight: 300;
+  font-size: 14px;
+}
+.main {
+  padding: 10px 0 20px;
+}
+.main-text {
+  font-size: 12px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.read-more {
+  color: grey;
+}
+.fa-heart {
+  color: red;
+}
