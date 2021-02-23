@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Age = () => {
+const Age = (props) => {
   return (
     <div>
       <p>Hoy tengo {props.age}años de edad</p>
