@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: lightgrey;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+}
+.article {
+  margin: 20px;
+  background-color: white;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.club {
+  list-style: none;
+}
+.fa-glasses {
+  height: 100%;
+  color: green;
+}
+.title {
+  width: 80%;
+}
+.members {
+  list-style: none;
+}
